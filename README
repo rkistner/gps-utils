@@ -1,0 +1,9 @@
+Code to download and parse GPS tracks from my Garmin eTrex device. Probably not compatible with most other eTrex models. GPSBabel didn't work for me, so I wrote my own code.
+
+Use gps_download.py to download the data. Works on Ubuntu 10.10, but not on 11.04 with by USB<->Serial adapter.
+
+Use gps_parser.py to parse the data, then paste it into a KML document.
+
+http://vancouver-webpages.com/peter/idx_garmin.html
+http://playground.sun.com/pub/soley/garmin.txt
+http://vancouver-webpages.com/peter/grmnprot.html

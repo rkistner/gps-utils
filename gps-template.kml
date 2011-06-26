@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Document>
+    <name>Trail</name>
+    <Snippet></Snippet>
+<!-- Normal track style -->
+    <Style id="track_n">
+      <IconStyle>
+        <Icon>
+          <href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+<!-- Highlighted track style -->
+    <Style id="track_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://earth.google.com/images/kml-icons/track-directional/track-none.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="track">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#track_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#track_h</styleUrl>
+      </Pair>
+    </StyleMap>
+<!-- Normal waypoint style -->
+    <Style id="waypoint_n">
+      <IconStyle>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+<!-- Highlighted waypoint style -->
+    <Style id="waypoint_h">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal4/icon61.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <StyleMap id="waypoint">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#waypoint_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#waypoint_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="lineStyle">
+      <LineStyle>
+        <color>99ffac59</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>Tracks</name>
+      <Folder>
+        <name>Day 1</name>
+        <Snippet/>
+        <description>
+
+        </description>
+        <Placemark>
+          <name>Day1</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+                
+            </coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+      <Folder>
+        <name>Day 2</name>
+        <Snippet/>
+        <description>
+
+        </description>
+        <Placemark>
+          <name>Day2</name>
+          <styleUrl>#lineStyle</styleUrl>
+          <LineString>
+            <tessellate>1</tessellate>
+            <coordinates>
+                
+            </coordinates>
+          </LineString>
+        </Placemark>
+      </Folder>
+    </Folder>
+  </Document>
+</kml>
